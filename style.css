@@ -95,6 +95,7 @@ header h1 {
   margin: 1.5rem 0 5rem;
   text-align: center;
   font-family: "Fraunces";
+  text-transform: uppercase;
 }
 
 #arrow {
@@ -284,6 +285,10 @@ footer .logo img {
   header {
     position: relative;
     height: 75vh;
+  }
+  header h1 {
+    font-size: 1.6rem;
+    letter-spacing: 0.3rem;
   }
   header nav {
     position: absolute;
