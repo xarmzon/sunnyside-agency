@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/xarmzon/sunnyside-agency)
-- Live Site URL: [Add live site URL here](https://xarmzon.github.io/sunnyside-agency)
+- Live Site URL: [Live Site](https://xarmzon.github.io/sunnyside-agency)
 
 ## My process
 
