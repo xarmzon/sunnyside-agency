@@ -92,8 +92,9 @@ header nav button:hover {
 }
 
 header h1 {
-  margin: 3.5rem 0 5rem;
+  margin: 1.5rem 0 5rem;
   text-align: center;
+  font-family: "Fraunces";
 }
 
 #arrow {
@@ -119,8 +120,10 @@ header h1 {
 }
 .transform h3,
 .standout h3 {
+  font-family: "Fraunces";
   margin-bottom: 0.7rem;
   font-size: 2rem;
+  font-weight: bold;
 }
 
 .transform p,
@@ -140,6 +143,7 @@ header h1 {
   width: max-content;
   font-weight: bold;
   color: var(--dark-blue-neutral);
+  font-family: "Fraunces";
 }
 
 .transform a::after,
@@ -180,6 +184,7 @@ header h1 {
 .graphics .box h3,
 .photography .box h3 {
   margin-bottom: 0.7rem;
+  font-family: "Fraunces";
 }
 
 .graphics .box p,
@@ -198,6 +203,8 @@ header h1 {
   margin-bottom: 1.5rem;
   color: var(--grayish-blue);
   font-weight: 600;
+  font-family: "Fraunces";
+  text-transform: uppercase;
 }
 .testimonials .box {
   display: grid;
@@ -227,6 +234,7 @@ header h1 {
 .testimonials .box .client .name {
   padding: 2rem 0 0.5rem;
   font-weight: bold;
+  font-family: "Fraunces";
 }
 
 .testimonials .box .client .post {
@@ -330,6 +338,9 @@ footer .logo img {
     grid-template-columns: 1fr;
     gap: 2.5rem 0;
   }
+  .testimonials h3 {
+    font-size: 1rem;
+  }
   .items {
     grid-template-columns: 1fr 1fr;
   }
@@ -340,6 +351,18 @@ footer .logo img {
   .transform h3,
   .standout h3 {
     font-size: 1.5rem;
+  }
+  .graphics .box p,
+  .photography .box p {
+    font-size: 0.7rem;
+    width: 100%;
+  }
+  .graphics .box,
+  .photography .box {
+    padding: 0.5rem 1.5rem;
+  }
+  .testimonials .box .client img {
+    width: 3.5rem;
   }
 }
 
